@@ -26,6 +26,6 @@ lib/
 │ └── task_item.dart
 └── main.dart
 
-[Watch the app in action on YouTube]()
+[Watch the app in action on YouTube](https://youtu.be/6lSsfeCn2bQ)
 
 
