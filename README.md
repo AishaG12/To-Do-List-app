@@ -1,16 +1,31 @@
 # To-Do List App
 
-A new Flutter project.
+A new Flutter project for managing daily tasks with a clean UI.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add, edit, and delete tasks.
+- Mark tasks as complete/incomplete.
+- Tasks are saved temporarily in memory while the app is running.
+- Clean and minimal Flutter UI.
+- Includes:
+  - Login Screen (`login_screen.dart`)
+  - Report Screen (`report_screen.dart`)
 
-A few resources to get you started if this is your first Flutter project:
+##  Project Structure
+lib/
+├── model/
+│ ├── task.dart
+│ └── task_view_model.dart
+├── screen/
+│ ├── login_screen.dart
+│ ├── report_screen.dart
+│ ├── todo_app.dart
+│ └── todo_home_screen.dart
+├── widgets/
+│ └── task_item.dart
+└── main.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[Watch the app in action on YouTube]()
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,git init
 
